@@ -1,0 +1,130 @@
+.imagecenter{
+    display:flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.aligncenter{
+    display:flex;
+    align-content: center;
+}
+body{
+ 
+    background-image: url(img/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+  }
+  
+
+.alignleft{
+    text-align: left;
+    padding-right: 80%;
+    margin-left: 40.3%;
+    margin-bottom:20px;
+    padding-top: 10%;
+    color: darkblue;
+}
+
+.imagecenter1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: -0.25%;
+}
+
+.buttonalign{
+    display: block;
+    padding: 10px;
+    margin:0 auto;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonalign:hover{
+    background-color:dimgrey;
+    color:blue;
+}
+.squarebox{
+    position:relative;
+    display: inline-block;
+    background-color: white;
+    border-color: black;
+    padding: 10px;
+    margin-left: 88%;
+    text-align: center;
+}
+
+.rightbox1{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightbox1 button{
+    display: block;
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+
+.rightbox1 button:hover{
+    background-color:dimgrey;
+    color:blue;
+}
+
+.rightbox2{
+    width: 200px;
+    height: 200px;
+    background-color:cornflowerblue;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100%;
+}
+
+.rightbox2 button{
+    display: block;
+    padding: 10px;
+    background-color: darkgoldenrod;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+
+.rightbox2 button:hover{
+    background-color:dimgrey;
+    color:blue;
+}
+
+.newsbox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+}
+
+.rectanglecover{
+    width:800px;
+    height: 500px;
+    background-color: lightblue;
+    text-align: center;
+    padding:20px;
+    margin-bottom: -50%;
+}
+
+.bottomright{
+    position:absolute;
+    bottom: -110%;
+    right: 5%;
+}

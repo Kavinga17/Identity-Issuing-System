@@ -1,0 +1,58 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color:white;
+    background-image: url(img/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+      
+    }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    width: 800px;
+    margin: auto;
+  }
+  
+  .div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8,.div9,.div10,.div11{
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #7294bf;
+    color: #6c4d4d;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1f295b;
+  }
+  
+  
+  
+  
+  
+  

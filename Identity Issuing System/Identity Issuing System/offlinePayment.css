@@ -1,0 +1,54 @@
+.container {
+    max-width: 500px;
+    margin:auto;
+    padding: 20px;
+  }
+  body{
+  
+    background-image: url(img/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+  }
+  .grp1,.grp2,.grp3,.grp4,.grp5{
+    margin-bottom: 20px;
+  }
+  label{
+    font-size:16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}  
+  
+  input[type="text"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="file"] {
+    width: 100%;
+    
+  }
+
+  #bank{
+    width: 105%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: gray;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 60%; 
+  }
+  
+  button[type="submit"]:hover {
+    background-color: black;
+  }
+

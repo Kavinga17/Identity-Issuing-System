@@ -1,0 +1,62 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+
+    background-image: url(img/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+form{
+    width:200px;
+    
+}
+.hed{
+    text-align: left;
+}
+input[type="text"]{
+    border: 1px solid #ccc;
+    width:250%;
+    padding: 10px;
+    font-size: 12px;
+}
+.div1,.div2,.div3,.div4,.div5,.div6{
+    margin-bottom: 15px;
+  }
+
+  #Username{
+    width: 250%;
+  }
+
+ input[type="password"]{
+    width: 250%;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+ }
+
+#continueBtn1{
+   width: 80%;
+   background-color:cornflowerblue;
+   cursor: pointer;
+   border-radius: 20px;
+}
+#continueBtn1:hover{
+    background-color:rgb(104, 136, 162);
+}
+#amm{
+    
+    width:250%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#email{
+     
+    width:250%;
+    padding: 10px;
+    font-size: 12px;
+}
+
+#terms{
+    width: 250%;
+}
+

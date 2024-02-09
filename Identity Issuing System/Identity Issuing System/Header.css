@@ -1,0 +1,55 @@
+
+header{
+    margin: 0;
+    font-family:cursive,sans-serif;
+   }
+
+.nav {
+   height: 90vh;
+   width:100%;
+   background-image: url(img/Out_Of_Network_Costs_blog_lg.jpg);
+   background-size: cover;
+   background-position: center;
+  }
+
+.nav a {
+   float: left;
+   color: black;
+   text-align: center;
+   padding: 14px 18px;
+   text-decoration: none;
+   font-size: 20px;
+  } 
+  .spark{
+    color:black;
+    text-align:center ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+
+.nav a:hover {
+   color : #f9004d;
+  }
+
+.nav a.activ {
+  background-color:#996978;
+  }
+
+img{
+ display:block;
+ margin: 0%;
+ padding: 0%;
+}
+.btnheader123{
+    background-color: #2d8659;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+     border-radius: 30px;
+
+}
+.btnheader123:hover{
+  color: #f9004d;
+  background-color: #2d8659;
+}

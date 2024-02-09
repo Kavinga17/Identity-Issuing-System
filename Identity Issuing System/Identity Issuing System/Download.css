@@ -1,0 +1,118 @@
+body{
+    background-image: url(img/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+  }
+  
+
+h5{
+    text-align: center;
+}
+
+.hover_button{
+    background-color: darkgoldenrod;
+    color:black;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+.hover_button:hover{
+    background-color: aqua;
+    color:darkred
+}
+
+.shape {
+    position: relative;
+    display: inline-block;
+    background-color:grey;
+  }
+  
+.shape::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+
+.bottom_center{
+    display:flex;
+    justify-content: center;
+    margin-left:-285px;
+    margin-top: 0px;
+}
+
+.bottom_center ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 100px;
+}
+
+.alignment{
+    display:flex;
+    justify-content: center;
+    margin-left:-465px;
+    margin-top: 0px;
+}
+
+.alignmentalt{
+    display:flex;
+    justify-content: center;
+    margin-left:-421px;
+    margin-top: 0;
+}
+
+.alignmenthead{
+    display:flex;
+    justify-content: center;
+    margin-left:-400px;
+    margin-bottom:20px;
+    margin-top: 100px;
+}
+
+
+.button1{
+    margin-left: 150px;
+    background-color: darkgray;
+    color:black;
+    border:none;
+    padding:5px 10px;
+    cursor:pointer;
+}
+
+.button1:hover{
+    background-color: aqua;
+    color:darkred;
+}
+
+.button2{
+    margin-left: 150px;
+    background-color: darkgray;
+    color:black;
+    border:none;
+    padding:5px 10px;
+    cursor:pointer;
+}
+
+.button2:hover{
+    background-color: aqua;
+    color:darkred;
+}
+
+.button3{
+    background-color: darkgray;
+    color:black;
+    border:none;
+    padding:5px 10px;
+    cursor:pointer;
+}
+
+.button3:hover{
+    background-color: aqua;
+    color:darkred;
+}
